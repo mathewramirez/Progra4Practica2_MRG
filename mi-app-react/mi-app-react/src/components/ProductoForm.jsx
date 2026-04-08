@@ -8,6 +8,7 @@ const productoInicial = {
   stock: '',
 };
 
+
 function ProductoForm({ productoSeleccionado, onSuccess, onCancel }) {
   const [form, setForm] = useState(productoInicial);
   const [guardando, setGuardando] = useState(false);

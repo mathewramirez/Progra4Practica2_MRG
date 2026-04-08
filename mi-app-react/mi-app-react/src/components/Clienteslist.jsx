@@ -6,6 +6,7 @@ function ClientesList({ onEdit }) {
   const [cargando, setCargando] = useState(true);
   const [error, setError] = useState(null);
 
+  
   async function cargarClientes() {
     try {
       setCargando(true);
